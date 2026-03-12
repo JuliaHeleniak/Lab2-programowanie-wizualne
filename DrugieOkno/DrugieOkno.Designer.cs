@@ -1,6 +1,6 @@
-﻿namespace DrugieOkno
+﻿namespace Lab2
 {
-    partial class Form1
+    partial class FormWybor
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
