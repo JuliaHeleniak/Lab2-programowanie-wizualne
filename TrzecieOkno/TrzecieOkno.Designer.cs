@@ -1,6 +1,6 @@
 ﻿namespace TrzecieOkno
 {
-    partial class TrzecieOkno
+    partial class OknoTransportu
     {
         /// <summary>
         /// Wymagana zmienna projektanta.

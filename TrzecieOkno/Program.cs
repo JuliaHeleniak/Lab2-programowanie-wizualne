@@ -16,7 +16,7 @@ namespace TrzecieOkno
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TrzecieOkno());
+            Application.Run(new OknoTransportu());
         }
     }
 }

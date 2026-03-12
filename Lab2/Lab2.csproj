@@ -79,5 +79,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CzwarteOkno\CzwarteOkno.csproj">
+      <Project>{e41912d5-232f-45f7-bf31-eca4bae63e85}</Project>
+      <Name>CzwarteOkno</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrugieOkno\DrugieOkno.csproj">
+      <Project>{0f44d956-894b-4ed6-9a83-072f5a04b858}</Project>
+      <Name>DrugieOkno</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrzecieOkno\TrzecieOkno.csproj">
+      <Project>{1528152c-b303-4192-b608-3264b0ce25b9}</Project>
+      <Name>TrzecieOkno</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
