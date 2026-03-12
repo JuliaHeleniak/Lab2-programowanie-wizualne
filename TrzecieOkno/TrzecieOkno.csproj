@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8378209D-8C3A-4D19-9024-6CC53292FDE4}</ProjectGuid>
+    <ProjectGuid>{1528152C-B303-4192-B608-3264B0CE25B9}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab2</RootNamespace>
-    <AssemblyName>Lab2</AssemblyName>
+    <RootNamespace>TrzecieOkno</RootNamespace>
+    <AssemblyName>TrzecieOkno</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PierwszeOkno.cs">
+    <Compile Include="TrzecieOkno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PierwszeOkno.Designer.cs">
-      <DependentUpon>PierwszeOkno.cs</DependentUpon>
+    <Compile Include="TrzecieOkno.Designer.cs">
+      <DependentUpon>TrzecieOkno.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PierwszeOkno.resx">
-      <DependentUpon>PierwszeOkno.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -66,6 +63,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TrzecieOkno.resx">
+      <DependentUpon>TrzecieOkno.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

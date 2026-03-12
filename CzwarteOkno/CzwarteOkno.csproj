@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8378209D-8C3A-4D19-9024-6CC53292FDE4}</ProjectGuid>
+    <ProjectGuid>{E41912D5-232F-45F7-BF31-ECA4BAE63E85}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lab2</RootNamespace>
-    <AssemblyName>Lab2</AssemblyName>
+    <RootNamespace>CzwarteOkno</RootNamespace>
+    <AssemblyName>CzwarteOkno</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PierwszeOkno.cs">
+    <Compile Include="CzwarteOkno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PierwszeOkno.Designer.cs">
-      <DependentUpon>PierwszeOkno.cs</DependentUpon>
+    <Compile Include="CzwarteOkno.Designer.cs">
+      <DependentUpon>CzwarteOkno.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PierwszeOkno.resx">
-      <DependentUpon>PierwszeOkno.cs</DependentUpon>
+    <EmbeddedResource Include="CzwarteOkno.resx">
+      <DependentUpon>CzwarteOkno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
