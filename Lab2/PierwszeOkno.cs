@@ -18,9 +18,17 @@ namespace Lab2
 
         private void btnWybierz_Click(object sender, EventArgs e)
         {
+            string tytul = "Menu Główne";
+            List<string> listaProduktow = new List<string> { "Pizza", "Burger", "Sushi" };
 
-            var okno2 = new DrugieOkno.OknoWyboru("Menu Główne");
-            okno2.Show(); 
+            var okno2 = new DrugieOkno.OknoWyboru(tytul, listaProduktow);
+
+            if (okno2.ShowDialog() == DialogResult.OK)
+            {
+                string produkt = okno2.WybranyProdukt;
+                listViewKoszyk.Items.Add(new ListViewItem(produkt));
+                textBox1.Text = "Dodano do koszyka";
+            } 
         }
 
         private void btnTransport_Click(object sender, EventArgs e)

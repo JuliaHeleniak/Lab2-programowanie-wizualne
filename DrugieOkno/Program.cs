@@ -16,7 +16,7 @@ namespace DrugieOkno
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OknoWyboru("Menu Glowne"));
+            Application.Run(new OknoWyboru("Menu Glowne", new List<string>()));
         }
     }
 }
