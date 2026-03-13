@@ -58,6 +58,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Karta";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -69,6 +70,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Blik";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -80,15 +82,17 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Google Pay";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // labelSuma
             // 
-            this.labelSuma.Location = new System.Drawing.Point(221, 156);
+            this.labelSuma.Location = new System.Drawing.Point(192, 96);
             this.labelSuma.Name = "labelSuma";
-            this.labelSuma.Size = new System.Drawing.Size(117, 37);
+            this.labelSuma.Size = new System.Drawing.Size(152, 97);
             this.labelSuma.TabIndex = 4;
             this.labelSuma.Text = "Zapłać";
             this.labelSuma.UseVisualStyleBackColor = true;
+            this.labelSuma.Click += new System.EventHandler(this.labelSuma_Click);
             // 
             // radioButton5
             // 
@@ -100,8 +104,9 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Apple Pay";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
-            // CzwarteOkno
+            // OknoPlatnosci
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,7 +117,7 @@
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Name = "CzwarteOkno";
+            this.Name = "OknoPlatnosci";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

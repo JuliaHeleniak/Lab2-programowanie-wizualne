@@ -42,6 +42,7 @@
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Odbiór osobisty";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
@@ -65,7 +66,7 @@
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
-            // TrzecieOkno
+            // OknoTransportu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -73,7 +74,7 @@
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
-            this.Name = "TrzecieOkno";
+            this.Name = "OknoTransportu";
             this.Text = "Form1";
             this.Click += new System.EventHandler(this.checkBox2_CheckedChanged);
             this.ResumeLayout(false);
